@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Form Fill</title>
+<style>
+  body{
+      background-color: pink;
+   }</style>
+</head>
+<body>
+   <form action="./FormServlet" method="post">
+     Name:<input type="text" name="user_name" /> <br />
+     <br />Password:<input type="password" name="user_password" /> <br />
+     <br />E-mail:<input type="text" name="user_mail" /> <br />
+     <br />Country:<select name="user_country">
+           <option>India</option>
+           <option>USA</option>
+           <option>Others</option>
+     </select> <br />
+     <br /><input type="Submit" value="Register" />
+   
+   </form>
+</body>
+</html>
